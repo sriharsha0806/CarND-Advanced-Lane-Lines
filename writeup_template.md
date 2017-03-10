@@ -90,6 +90,12 @@ The code for each process is named in each section of 'main.ipynb'.
 * I am using sliding_window as mentioned in the tutorials 
 * The function returns left_fit, right_fit, left_lane_indexes, right_lane_indexes, and Data which contains, the reactangle and histogram data
 
+#### Example Image , Its Binary image and Plot of histogram of lanes
+![](example_Img.png)
+![](example_Binary_Img.png)
+![](histogram_plot.png)
+
+
 ## VII. polyfit using prev fit
 * This is one of the ideas which i borrowed from Jeremy shannon
 * The function is used for finding for finding lane lines using previous frame data. If lane cannot be realised for present data then the data uses previous lane frame
@@ -97,6 +103,9 @@ The code for each process is named in each section of 'main.ipynb'.
 ## VIII. Radius of curvature and center_distance
 * Here i am using an extra variable to find center distance
 * Jeremy mentioned that based on his previous destination points and source points he choose these particular values
+#### Finding lanes and visualizing
+![](finding_lanes.png)
+![](visualizing_lanes.png)
 
 ## Class Line()
 * I am using an extra add_fit function 
@@ -109,7 +118,7 @@ Here I'll talk about the approach I took, what techniques I used, what worked an
 I implemented camera calibration and undistorting the images as mentioned in the class. Next for designing the pipeline. I used hls image, sobel gradient, sobel magnitude
 The debugging part helped me a lot in solving threshold binary images. But for some test images, it is not working that properly as it is recongizing the lightness and shadows of the image. I have to work more on the pipeline color values to make the pipeline more robust. I want to implement the convolutional algorithm as mentioned in self driving Advanced lane Detection in Q/A for lane detection. I have increased the confidence level for fits by having threshold limit set or right and left fit. I want to improve this algorithm in the future as i learn much more baout computational geometry.
 
-[Project video](./project_video-output.mp4)
+[Project video](./project_video_output.mp4)
 
 [Challege video](./challenge_video_output.mp4)
 
