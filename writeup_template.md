@@ -31,6 +31,7 @@ The code for each process is named in each section of 'main.ipynb'.
 * made mtx, dist, nx, ny as global variables as these variables will be used later
 ####Example of camera calibration image.
 ![](camera_undistortion.png)
+
 ## II. Correcting the distortion
 ### Performing the distortion correction on camera calibration image
 * Using cv2.Undistort and vairbales mtx, dist i performed the camera_undistort
