@@ -110,7 +110,9 @@ I implemented camera calibration and undistorting the images as mentioned in the
 The debugging part helped me a lot in solving threshold binary images. But for some test images, it is not working that properly as it is recongizing the lightness and shadows of the image. I have to work more on the pipeline color values to make the pipeline more robust. I want to implement the convolutional algorithm as mentioned in self driving Advanced lane Detection in Q/A for lane detection. I have increased the confidence level for fits by having threshold limit set or right and left fit. I want to improve this algorithm in the future as i learn much more baout computational geometry.
 
 [Project video](./project_video-output.mp4)
+
 [Challege video](./challenge_video_output.mp4)
+
 [Harder challenge video](./harder_challenge_video_output.mp4)
 
 ---
